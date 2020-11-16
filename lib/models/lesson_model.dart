@@ -4,7 +4,7 @@ class Lesson {
   String type;
   String duration;
   int rating;
-  int price;
+  String website;
 
   Lesson({
     this.imageUrl,
@@ -12,6 +12,6 @@ class Lesson {
     this.type,
     this.duration,
     this.rating,
-    this.price,/////////////////////////
+    this.website,
   });
 }

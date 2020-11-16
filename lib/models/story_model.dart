@@ -24,7 +24,7 @@ List<Lesson> lessons1 = [
     type: 'Word meaning',
     duration: '35 minutes',
     rating: 5,
-    price: 30,
+    website: '',
   ),
   Lesson(
     imageUrl: 'assets/images/story1.jpg',
@@ -32,7 +32,7 @@ List<Lesson> lessons1 = [
     type: 'Sentence meaning',
     duration: '1 hour',
     rating: 4,
-    price: 210,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/story1.jpg',
@@ -40,7 +40,7 @@ List<Lesson> lessons1 = [
     type: 'Story Listening',
     duration: '45 minutes',
     rating: 4,
-    price: 210,
+    website: ' ',
   ),
   
 ];
@@ -53,7 +53,7 @@ List<Lesson> lessons2 = [
     type: 'Word meaning',
     duration: '35 minutes',
     rating: 5,
-    price: 30,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/story2.jpg',
@@ -61,7 +61,7 @@ List<Lesson> lessons2 = [
     type: 'Sentence meaning',
     duration: '1 hour',
     rating: 4,
-    price: 210,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/story2.jpg',
@@ -69,7 +69,7 @@ List<Lesson> lessons2 = [
     type: 'Story Listening',
     duration: '45 minutes',
     rating: 4,
-    price: 210,
+    website: ' ',
   ),
   
 ];
@@ -82,7 +82,7 @@ List<Lesson> lessons3 = [
     type: 'Word meaning',
     duration: '35 minutes',
     rating: 5,
-    price: 30,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/story3.jpg',
@@ -90,7 +90,7 @@ List<Lesson> lessons3 = [
     type: 'Sentence meaning',
     duration: '1 hour',
     rating: 4,
-    price: 210,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/story3.jpg',
@@ -98,7 +98,7 @@ List<Lesson> lessons3 = [
     type: 'Story Listening',
     duration: '45 minutes',
     rating: 4,
-    price: 210,
+    website: ' ',
   ),
   
 ];

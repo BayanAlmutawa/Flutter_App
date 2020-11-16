@@ -24,7 +24,7 @@ List<Lesson> lessons1 = [
     type: 'Anne strikes up a conversation with a visitor.',
     duration: '15 minutes',
     rating: 5,
-    price: 30,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/china.jpg',
@@ -32,7 +32,7 @@ List<Lesson> lessons1 = [
     type: 'Anne asking the visitor his name.',
     duration: '20 minutes',
     rating: 4,
-    price: 210,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/china.jpg',
@@ -40,7 +40,7 @@ List<Lesson> lessons1 = [
     type: 'Anne exchange greetings.',
     duration: '16 minutes',
     rating: 3,
-    price: 125,
+    website: ' ',
   ),
 ];
 
@@ -52,7 +52,7 @@ List<Lesson> lessons2 = [
     type: 'education lesson',
     duration: '30 minutes',
     rating: 5,
-    price: 30,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/comm.png',
@@ -60,7 +60,7 @@ List<Lesson> lessons2 = [
     type: 'Sightseeing Tour',
     duration: '25 minutes',
     rating: 4,
-    price: 210,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/comm.png',
@@ -68,7 +68,7 @@ List<Lesson> lessons2 = [
     type: 'Sightseeing Tour',
     duration: '40 minutes',
     rating: 3,
-    price: 125,
+    website: ' ',
   ),
 ];
 
@@ -81,7 +81,7 @@ List<Lesson> lessons3 = [
     type: 'education lesson',
     duration: '20 minutes',
     rating: 5,
-    price: 30,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/speaking.png',
@@ -89,7 +89,7 @@ List<Lesson> lessons3 = [
     type: 'Sightseeing Tour',
     duration: '35 minutes',
     rating: 4,
-    price: 210,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/speaking.png',
@@ -97,7 +97,7 @@ List<Lesson> lessons3 = [
     type: 'Sightseeing Tour',
     duration: '25 minutes',
     rating: 3,
-    price: 125,
+    website: ' ',
   ),
 ];
 
@@ -108,7 +108,7 @@ List<Lesson> lessons4 = [
     type: 'education lesson',
     duration: '15 minutes',
     rating: 5,
-    price: 30,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/expert.jpg',
@@ -116,7 +116,7 @@ List<Lesson> lessons4 = [
     type: 'Sightseeing Tour',
     duration: '45 minutes',
     rating: 4,
-    price: 210,
+    website: ' ',
   ),
   Lesson(
     imageUrl: 'assets/images/expert.jpg',
@@ -124,7 +124,7 @@ List<Lesson> lessons4 = [
     type: 'Sightseeing Tour',
     duration: '35 minutes',
     rating: 3,
-    price: 125,
+    website: ' ',
   ),
 ];
 

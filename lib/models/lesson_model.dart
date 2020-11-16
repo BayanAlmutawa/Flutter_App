@@ -12,6 +12,6 @@ class Lesson {
     this.type,
     this.duration,
     this.rating,
-    this.price,
+    this.price,/////////////////////////
   });
 }

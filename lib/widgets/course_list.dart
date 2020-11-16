@@ -3,7 +3,7 @@ import 'package:ChinaNow_app/models/course_model.dart';
 import 'package:ChinaNow_app/screens/course_screen.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class CourseDetails extends StatelessWidget {
+class CourseList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(

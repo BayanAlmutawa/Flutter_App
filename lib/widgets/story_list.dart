@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:ChinaNow_app/models/story_model.dart';
 import 'package:ChinaNow_app/screens/story_screen.dart';
 
-class HotelCarousel extends StatelessWidget {
+class StoryList extends StatelessWidget {
   Text _buildRatingStars(int rating) {
     String stars = '';
     for (int i = 0; i < rating; i++) {

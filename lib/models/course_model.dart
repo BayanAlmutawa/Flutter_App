@@ -4,14 +4,14 @@ import 'package:ChinaNow_app/models/lesson_model.dart';
 class Course {
   String imageUrl;
   String type;
-  String sections;
+  String name;
   String description;
   List<Lesson> lessons;
 
   Course({
     this.imageUrl,
     this.type,
-    this.sections,
+    this.name,
     this.description,
     this.lessons,
   });
@@ -132,28 +132,28 @@ List<Course> courses = [
   Course(
     imageUrl: 'assets/images/china.jpg',
     type: 'Beginner',
-    sections: 'Course 1: Anne arrives in China',
+    name: 'Course 1: Anne arrives in China',
     description: 'Provide a solid foundation in Chinese language.',
     lessons: lessons1,
   ),
   Course(
     imageUrl: 'assets/images/comm.png',
     type: 'Intermediate',
-    sections: 'Course 2: China’s Favorite Sport',
+    name: 'Course 2: China’s Favorite Sport',
     description: 'Improve your Chinese communication skills.',
     lessons: lessons2,
   ),
   Course(
     imageUrl: 'assets/images/speaking.png',
     type: 'Advanced',
-    sections: 'Course 3: Cute Supertitions',
+    name: 'Course 3: Cute Supertitions',
     description: 'Enhance Chinese speaking and reading fluency.',
     lessons: lessons3,
   ),
   Course(
     imageUrl: 'assets/images/expert.jpg',
     type: 'Expert',
-    sections: 'Course 4: Why I Practice Wushu',
+    name: 'Course 4: Why I Practice Wushu',
     description: 'Mastering specific categories of Chinese language.',
     lessons: lessons4,
   ),

@@ -107,7 +107,7 @@ class _CourseScreenState extends State<CourseScreen> {
                         ),
                         SizedBox(width: 5.0),
                         Text(
-                          widget.course.sections,
+                          widget.course.name,
                           style: TextStyle(
                             color: Colors.black,
                             backgroundColor: Colors.white,

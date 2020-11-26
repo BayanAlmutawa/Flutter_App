@@ -1,3 +1,4 @@
+import 'package:ChinaNow_app/widgets/flash_cards.dart';
 import 'package:flutter/material.dart';
 import 'package:ChinaNow_app/widgets/course_list.dart';
 import 'package:ChinaNow_app/widgets/story_list.dart';
@@ -78,40 +79,55 @@ class _HomeScreenState extends State<HomeScreen> {
             CourseList(),
             SizedBox(height: 20.0),
             StoryList(), 
-          ],
-        ),
-      ),
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentTab,
-        onTap: (int value) {
-          setState(() {
-            _currentTab = value; 
-          });
-        },
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.home,
-              size: 30.0,
-            ),
-            title: SizedBox.shrink(),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.search,
-              size: 30.0,
-            ),
-            title: SizedBox.shrink(),
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(
-              Icons.settings,
-              size: 30.0,
-            ),
-            title: SizedBox.shrink(),
-          )
-        ],
-      ),
+            SizedBox(height: 20.0),
+            FloatingActionButton(onPressed: _actionButton, child: Icon(Icons.question_answer),)
+                        
+                      ],
+                    ),
+                  ),
+                  bottomNavigationBar: BottomNavigationBar(
+                    currentIndex: _currentTab,
+                    onTap: (int value) {
+                      setState(() {
+                        _currentTab = value; 
+                      });
+                    },
+                    items: [
+                      BottomNavigationBarItem(
+                        icon: Icon(
+                          Icons.home,
+                          size: 30.0,
+                        ),
+                        title: SizedBox.shrink(),
+                      ),
+                      BottomNavigationBarItem(
+                        icon: Icon(
+                          Icons.search,
+                          size: 30.0,
+                        ),
+                        title: SizedBox.shrink(),
+                      ),
+                      BottomNavigationBarItem(
+                        icon: Icon(
+                          Icons.settings,
+                          size: 30.0,
+                        ),
+                        title: SizedBox.shrink(),
+                      )
+                    ],
+                  ),
+                );
+              }
+            
+              void _actionButton() {
+                setState(() {
+     
+      Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => Flashcards()),
     );
+      
+      //_counter++;
+    });
   }
 }

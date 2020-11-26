@@ -22,12 +22,12 @@ class FlipViewTest extends State<FlashcardWord> {
             front: Container(
               color: Colors.red,
               alignment: Alignment.center,
-              child: Text('Front', style: TextStyle(fontSize: 25, color: Colors.white)),
+              child: Text('你好', style: TextStyle(fontSize: 25, color: Colors.white)),
             ),
             back: Container(
               color: Colors.green,
               alignment: Alignment.center,
-              child: Text('Back', style: TextStyle(fontSize: 25, color: Colors.white)),
+              child: Text('Hello', style: TextStyle(fontSize: 25, color: Colors.white)),
             ),
           ),
         ),

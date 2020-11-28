@@ -55,10 +55,13 @@ class _Flashcard_list extends State<Flashcard_list>  {
                     .map(
                       (e) => InkWell(
                     onTap: () {
-                      Navigator.push(
+                      if(true){///////////////////////////////////////////////////////////////////////
+                        Navigator.push(
                         context,
                         MaterialPageRoute(builder: (_) => FlashcardWord()),
                       );
+                      }
+                      
                     },
                     child: Card(
                       color: e.isActive ? Colors.cyan[500] : null,

@@ -98,39 +98,12 @@ class _StoryScreenState extends State<StoryScreen> {
                         letterSpacing: 1.2,
                       ),
                     ),
-                    Row(
-                      children: <Widget>[
-                        Icon(
-                          FontAwesomeIcons.locationArrow,
-                          size: 15.0,
-                          color: Colors.white70,
-                        ),
-
-                        SizedBox(width: 5.0),
-                        
-                        Text(
-                          widget.story.type,
-                          style: TextStyle(
-                            color: Colors.black,
-                            backgroundColor: Colors.white,
-                            fontSize: 20.0,
-                          ),
-                        ),
-
-                      ],
-                    ),
+                    
                   ],
                 ),
               ),
-              Positioned(
-                right: 20.0,
-                bottom: 20.0,
-                child: Icon(
-                  Icons.location_on,
-                  color: Colors.white70,
-                  size: 25.0,
-                ),
-              ),
+             
+             
             ],
           ),
           Expanded(

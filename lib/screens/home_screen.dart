@@ -1,3 +1,4 @@
+import 'package:ChinaNow_app/screens/flashcard_list.dart';
 import 'package:ChinaNow_app/widgets/flash_cards.dart';
 import 'package:flutter/material.dart';
 import 'package:ChinaNow_app/widgets/course_list.dart';
@@ -14,10 +15,9 @@ class _HomeScreenState extends State<HomeScreen> {
   int _currentTab = 0;
   List<IconData> _icons = [
     Icons.border_all, // lessons
-    Icons.menu_book, // lessons
+    Icons.question_answer, // flashcards
     Icons.translate, // dictionary
     Icons.auto_stories, // stories
-    Icons.question_answer, // flashcards
   ];
 
   Widget _buildIcon(int index) {
@@ -25,6 +25,7 @@ class _HomeScreenState extends State<HomeScreen> {
       onTap: () {
         setState(() {
           _selectedIndex = index;
+          _actionButton();
         });
       },
       child: Container(
@@ -80,7 +81,6 @@ class _HomeScreenState extends State<HomeScreen> {
             SizedBox(height: 20.0),
             StoryList(), 
             SizedBox(height: 20.0),
-            FloatingActionButton(onPressed: _actionButton, child: Icon(Icons.question_answer),)
                         
                       ],
                     ),
@@ -91,6 +91,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       setState(() {
                         _currentTab = value; 
                       });
+                      
                     },
                     items: [
                       BottomNavigationBarItem(
@@ -121,13 +122,15 @@ class _HomeScreenState extends State<HomeScreen> {
             
               void _actionButton() {
                 setState(() {
-     
-      Navigator.push(
-      context,
-      MaterialPageRoute(builder: (context) => Flashcards()),
-    );
-      
-      //_counter++;
-    });
-  }
+                if(_selectedIndex==1){
+
+                  Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => Flashcard_list()),
+                  );
+                }
+                
+                
+                });
+              }
 }
